@@ -1,0 +1,147 @@
+html {
+  font-family: "Karla", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+h4,
+h2 {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+h4 {
+  margin-bottom: 10px;
+}
+p {
+  line-height: 20px;
+}
+ul {
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+li {
+  text-decoration: none;
+}
+.join {
+  color: #1ac9c5;
+}
+
+.card {
+  height: auto;
+  width: 100%;
+  /* border: 3px solid red; */
+  margin: 100px auto;
+  box-shadow: 5px -20px 33px 6px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.top-section {
+  width: 100%;
+  height: 45%;
+  /* border: 2px solid green; */
+  padding: 25px 25px 25px 25px;
+  text-align: left;
+}
+.bottom-section {
+  display: block;
+  height: auto;
+  width: 100%;
+  /* border: 2px solid yellow; */
+}
+.left-section {
+  width: 100%;
+  /* border: 2px solid blue; */
+  height: 100%;
+  padding: 25px 25px 25px 25px;
+  text-align: left;
+  background-color: #2ab2af;
+  color: #fff;
+}
+.right-section {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+  padding: 25px 25px 25px 25px;
+  text-align: left;
+  background-color: #1ac9c5;
+  color: #fff;
+}
+
+.top-section h4 {
+  color: #c0df34;
+}
+
+.top-section p {
+  color: #98a6bd;
+}
+
+.dollar {
+  font-weight: 700;
+  margin-right: 5px;
+  font-size: 30px;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+button {
+  background-color: #c0df34;
+  border: none;
+  color: white;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 5px -20px 33px -19px rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: #a9c42d;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/* @media (max-width: 650px) {
+  .bottom-section {
+    display: block;
+  }
+  .left-section,
+  .right-section,
+  .card {
+    width: 100%;
+    height: auto;
+  }
+} */
+
+@media (min-width: 650px) {
+  .card {
+    max-width: 750px;
+    max-height: 400px;
+  }
+  .top-section {
+    height: 45%;
+    width: 100%;
+  }
+  .bottom-section {
+    display: flex;
+    height: 55%;
+    width: 100%;
+  }
+
+  .right-section {
+    width: 50%;
+    height: 100%;
+    padding-bottom: 34px;
+  }
+  .left-section {
+    width: 50%;
+    height: 100%;
+  }
+}
